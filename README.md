@@ -22,8 +22,8 @@ This guide will help you set up your own **AI-powered YouTube video creation sys
    👉 [Pexels link](https://www.pexels.com/)
 
 5. **Hugging Face Audio Model (Example)**
-   - (You can replace this with your own free/paid audio model like ElevenLabs, etc.)
-   👉 [Try it here](https://fishaudio-openaudio-s1-mini.hf.space](https://fishaudio-openaudio-s1-mini.hf.space/)
+   - You can replace this with your own free/paid audio model like ElevenLabs, etc.
+   👉 [Try it here](https://fishaudio-openaudio-s1-mini.hf.space)
 
 ---
 
