@@ -21,6 +21,10 @@ This guide will help you set up your own **AI-powered YouTube video creation sys
    - Get your API key and copy it.  
    👉 [Pexels link](https://www.pexels.com/)
 
+5. **Hugging Face Audio Model (Example)**
+   - (You can replace this with your own free/paid audio model like ElevenLabs, etc.)
+   👉 [Try it here](https://fishaudio-openaudio-s1-mini.hf.space](https://fishaudio-openaudio-s1-mini.hf.space/)
+
 ---
 
 ## ⚙️ Scenario & Google Setup
@@ -57,6 +61,15 @@ This guide will help you set up your own **AI-powered YouTube video creation sys
 - In JSON2Video, map **multiple videos** together — see how it’s done for two videos in this setup. Expand this logic for longer videos.
 - Experiment with the prompt and adjust modules to suit your unique needs.
 
+- **When mapping multiple videos in JSON2Video:**
+   - First video URL: {{36.array[1].link}}
+   - Second video URL: {{36.array[2].link}}
+   - Third video URL: {{36.array[3].link}}
+   - …and so on.
+
+- Strictly follow your line count — your video output depends on the number of lines in the script.
+- Never leave JSON2Video video URLs empty; this may cause errors!
+  
 ---
 
 ## 💬 Need Help?
@@ -64,7 +77,7 @@ This guide will help you set up your own **AI-powered YouTube video creation sys
 - If you get stuck, **comment on the video** — let’s solve it together!
 - For private help, **DM me on Instagram** (link in my YouTube bio).
 
-📽️ **For a detailed walkthrough, watch the YouTube video:** [Your Video Link Here]
+📽️ **For a detailed walkthrough, watch the YouTube video:** https://youtu.be/hvD4vOHZkiQ
 
 ---
 
