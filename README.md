@@ -71,6 +71,22 @@ This guide will help you set up your own **AI-powered YouTube video creation sys
 - Never leave JSON2Video video URLs empty; this may cause errors!
   
 ---
+## 🚨Error Fix Below
+- **🚨 Attention Everyone!**
+   - If you’re stuck on Module 4 (HTTP) with this error 👇
+   - Error: 422 Unprocessable Entity
+      {"detail":[{"type":"json_invalid","loc":["body",6],"msg":"JSON decode error","ctx":{"error":"Extra data"}}]}
+
+   - 👉 Fix: In Module 2 (Openrouter), make sure your system prompt tells the model to give the script in one line only with full stops (.), NO new lines!
+
+- **✅ Example Prompt:**
+   - You are a script writer. Write 3 lines of script. Use only full stops (.) and no new lines. The script must be one continuous line of text with proper sentences and        full stops.
+     Example Output:
+     Happiness in life is a state of mind that everyone strives to achieve. It is derived from the joy and fulfillment one feels in their heart. True happiness lies in          appreciating the little things and finding contentment in everyday moments.
+
+**✨ Hope this helps! Smash the ❤️ if it worked!**
+
+---
 
 ## 💬 Need Help?
 
